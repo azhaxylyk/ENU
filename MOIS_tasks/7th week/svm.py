@@ -5,11 +5,10 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 import time
 
-# Создание вымышленных данных
 data = pd.DataFrame({
-    'Feature1': [25, 30, 22, 35, 28],  # Возраст
-    'Feature2': [150, 180, 130, 165, 155],  # Давление
-    'Feature3': [70, 85, 60, 75, 72],  # Пульс
+    'Age': [25, 30, 22, 35, 28],  # Возраст
+    'Pressure': [150, 180, 130, 165, 155],  # Давление
+    'Puls': [70, 85, 60, 75, 72],  # Пульс
     'Pregnancies': [1, 0, 1, 0, 1]  # Беременность (метка класса: 1 - беременная, 0 - не беременная)
 })
 
