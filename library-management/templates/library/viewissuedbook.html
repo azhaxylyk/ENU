@@ -60,19 +60,19 @@
     {% include "library/navbaradmin.html" %}
     <br>
     <br>
-    <h3 class="p-3 mb-2 bg-success text-white" style = 'font-size: 30px;text-align:center;margin-bottom:0px;'>Issued books to Student</h3>
+    <h3 class="p-3 mb-2 bg-success text-white" style = 'font-size: 30px;text-align:center;margin-bottom:0px;'>Студенттерге берілген кітаптар</h3>
 
 {% if li%}
     <div class="container">
       <table class="table table-hover table-condensed table-striped table-bordered">
         <thead>
         <tr>
-        <th>Student Name</th>
-        <th>Enrollment</th>
-        <th>Book Name</th>
-        <th>Author</th>
-        <th>Issued</th>
-        <th>Expiry Date</th>
+        <th>Студент есімі</th>
+        <th>Тіркеу нөмірі</th>
+        <th>Кітап атауы</th>
+        <th>Авторы</th>
+        <th>Берілген</th>
+        <th>Қолданылу мерзімі</th>
         <th>Fine</th>
         </tr>
         </thead>
@@ -99,7 +99,7 @@
         </table>
     </div>
     {%else%}
-    <h1> 0 book Issued</h1>
+    <h1> 0 кітап берілген</h1>
     {%endif%}
 
     <br><br><br><br><br><br><br><br><br>

@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=30)),
                 ('isbn', models.PositiveIntegerField()),
                 ('author', models.CharField(max_length=40)),
-                ('category', models.CharField(choices=[('education', 'Education'), ('entertainment', 'Entertainment'), ('comics', 'Comics'), ('biography', 'Biographie'), ('history', 'History')], default='education', max_length=30)),
+                ('category', models.CharField(choices=[('education', 'Білім'), ('entertainment', 'Ойын-сауық'), ('comics', 'Комикс'), ('biography', 'Биография'), ('history', 'Тарихи')], default='education', max_length=30)),
             ],
         ),
     ]

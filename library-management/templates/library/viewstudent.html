@@ -61,16 +61,16 @@ border-radius: 5px;
     {% include "library/navbaradmin.html" %}
     <br>
     <br>
-    <h3 class="p-3 mb-2 bg-success text-white" style = 'font-size: 30px;text-align:center;'>Registered Students</h3>
+    <h3 class="p-3 mb-2 bg-success text-white" style = 'font-size: 30px;text-align:center;'>Тіркелген студенттер</h3>
 
     {% if students%}
 <div class="container">
   <table class="table table-hover table-condensed table-striped table-bordered">
     <thead>
     <tr>
-    <th>Name</th>
-    <th>Enrollment</th>
-    <th>Branch</th>
+    <th>Есімі</th>
+    <th>Тіркелу номері</th>
+    <th>Билет типі</th>
     </tr>
     </thead>
     <tfoot>
@@ -94,7 +94,7 @@ border-radius: 5px;
     </table>
 </div>
 {%else%}
-<h1> No Student Registered in Library</h1>
+<h1> Тіркелген студент жоқ</h1>
 {%endif%}
 
 

@@ -14,6 +14,12 @@ class AdminSigupForm(forms.ModelForm):
     class Meta:
         model=User
         fields=['first_name','last_name','username','password']
+        labels = {
+            'first_name': 'Аты',
+            'last_name': 'Тегі',
+            'username': 'Пайдаланушы аты',
+            'password': 'Құпия сөз'
+        }
 
 
 
@@ -21,18 +27,33 @@ class StudentUserForm(forms.ModelForm):
     class Meta:
         model=User
         fields=['first_name','last_name','username','password']
+        labels = {
+            'first_name': 'Аты',
+            'last_name': 'Тегі',
+            'username': 'Пайдаланушы аты',
+            'password': 'Құпия сөз'
+        }
 
 class StudentExtraForm(forms.ModelForm):
     class Meta:
         model=models.StudentExtra
         fields=['enrollment','branch']
+        labels = {
+            'enrollment': 'Тіркелу номері',
+            'branch': 'Билет типі'
+        }
 
 class BookForm(forms.ModelForm):
     class Meta:
         model=models.Book
         fields=['name','isbn','author','category']
+        labels = {
+            'name': 'Аты',
+            'isbn': 'Жеке номері',
+            'author': 'Авторы',
+            'category': 'Категория'
+        }
+
 class IssuedBookForm(forms.Form):
-    #to_field_name value will be stored when form is submitted.....__str__ method of book model will be shown there in html
-    isbn2=forms.ModelChoiceField(queryset=models.Book.objects.all(),empty_label="Name and isbn", to_field_name="isbn",label='Name and Isbn')
-    enrollment2=forms.ModelChoiceField(queryset=models.StudentExtra.objects.all(),empty_label="Name and enrollment",to_field_name='enrollment',label='Name and enrollment')
-    
+    isbn2 = forms.ModelChoiceField(queryset=models.Book.objects.all(), empty_label="Атау және номері", to_field_name="isbn", label='Атау және номері')
+    enrollment2 = forms.ModelChoiceField(queryset=models.StudentExtra.objects.all(), empty_label="Атауы және тіркелу нөмірі", to_field_name='enrollment', label='Атауы және тіркелу нөмірі')

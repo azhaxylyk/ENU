@@ -105,11 +105,11 @@
     {% include "library/navbar.html" %}
     <br>
     <br>
-<center><h3 style=" margin-bottom: 0px;"class = 'alert alert-success'>Signup As Admin!</h3></center>
+<center><h3 style=" margin-bottom: 0px;"class = 'alert alert-success'>Админ ретінде тіркелу!</h3></center>
     <div class="signup-form">
         <form  method="post" class="form-horizontal">
 
-    			<center><h2>Admin Signup</h2></center>
+    			<center><h2>Админ тіркелу</h2></center>
 
 {% csrf_token %}
             {% for field in form %}
@@ -124,11 +124,11 @@
 
     		<div class="form-group text-center">
     			<div class="col-xs-8 col-xs-offset-4">
-            <button type="submit" class="btn btn-success btn-lg" style="border-radius:0px;">Sign Up</button>
+            <button type="submit" class="btn btn-success btn-lg" style="border-radius:0px;">Тіркелу</button>
     			</div>
     		</div>
         </form>
-    	<div class="text-center">Already have an account? <a href="adminlogin">Login here</a></div>
+    	<div class="text-center">Әлде аккаунт бар ма? <a href="adminlogin">Кіру мында</a></div>
     </div>
 
 

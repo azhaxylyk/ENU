@@ -96,11 +96,11 @@
     {% include "library/navbar.html" %}
     <br>
     <br>
-<center><h3 style=" margin-bottom: 0px;"class = 'alert alert-success'>Login As Student!</h3></center>
+<center><h3 style=" margin-bottom: 0px;"class = 'alert alert-success'>Студент ретінде кіріңіз!</h3></center>
     <div class="signup-form">
         <form  method="post" class="form-horizontal">
 
-    			<center><h2>Student Login</h2></center>
+    			<center><h2>Студент Кіру</h2></center>
 
 {% csrf_token %}
             {% for field in form %}
@@ -114,11 +114,11 @@
 
     		<div class="form-group text-center">
     			<div class="col-xs-8 col-xs-offset-4">
-            <button type="submit" class="btn btn-success btn-lg" style="border-radius: 0%;">Login</button>
+            <button type="submit" class="btn btn-success btn-lg" style="border-radius: 0%;">Кіру</button>
     			</div>
     		</div>
         </form>
-    	<div class="text-center">Do not have account? <a href="studentsignup">Signup here</a></div>
+    	<div class="text-center">Аккаунт жоқ па? <a href="studentsignup">Тіркелу мында</a></div>
     </div>
 
 

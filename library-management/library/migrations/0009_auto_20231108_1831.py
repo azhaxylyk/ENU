@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='book',
             name='category',
-            field=models.CharField(choices=[('education', 'Education'), ('entertainment', 'Entertainment'), ('comics', 'Comics'), ('biography', 'Biography'), ('history', 'History'), ('novel', 'Novel'), ('fantasy', 'Fantasy'), ('thriller', 'Thriller'), ('romance', 'Romance'), ('scifi', 'Sci-Fi')], default='education', max_length=30),
+            field=models.CharField(choices=[('education', 'Білім'), ('entertainment', 'Ойын-сауық'), ('comics', 'Комикс'), ('biography', 'Биография'), ('history', 'Тарихи'), ('novel', 'Новелла'), ('fantasy', 'Фэнтази'), ('thriller', 'Триллер'), ('romance', 'Романтика'), ('scifi', 'Ғылыми фэнтази')], default='education', max_length=30),
         ),
     ]
