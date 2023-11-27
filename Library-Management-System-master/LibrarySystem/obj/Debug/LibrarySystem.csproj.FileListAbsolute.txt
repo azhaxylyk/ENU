@@ -1,0 +1,50 @@
+c:\users\hassan hassan\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystemDB.mdf
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystemDB_log.ldf
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Books.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.hello.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Main.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.Cache
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csprojResolveAssemblyReference.cache
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.UserSettings.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.AdminPage.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.BooksSettings.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.SearchBooks.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.AddNewBook.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.editingbooks.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Forms.User.Requests.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.UserSettings.AddNewUser.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.UserSettings.UserEdittingOptions.resources
+C:\Users\hassan hassan\Documents\Visual Studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.user_settings.editingusers.resources
+D:\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+D:\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.exe
+D:\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Car\Library-Management-System-master\LibrarySystem\bin\Debug\LibrarySystemDB.mdf
+C:\Car\Library-Management-System-master\LibrarySystem\bin\Debug\LibrarySystemDB_log.ldf
+C:\Car\Library-Management-System-master\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\Car\Library-Management-System-master\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\Car\Library-Management-System-master\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.csproj.AssemblyReference.cache
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.AddNewBook.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.AdminPage.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.BooksSettings.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.UserSettings.AddNewUser.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.user_settings.editingusers.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Forms.Admin.UserSettings.UserEdittingOptions.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Books.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.editingbooks.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.hello.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Main.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Forms.User.Requests.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.SearchBooks.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.UserSettings.resources
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\Car\Library-Management-System-master\LibrarySystem\obj\Debug\LibrarySystem.pdb
