@@ -1,0 +1,19 @@
+/* custom-dark-theme.css */
+
+body {
+    background-color: #333; /* Цвет фона страницы (мрачно-серый) */
+    color: #fff; /* Цвет текста (белый) */
+  }
+  
+  .container {
+    background-color: #444; /* Цвет фона контейнера (еще темнее) */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Цвет кнопки "Register" (синий) */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Цвет кнопки "Login" (серый) */
+  }
+  

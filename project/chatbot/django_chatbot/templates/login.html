@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block styles %}
+<style>
+  body {
+    background-color: #0A1A2F; /* Dark background color */
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    max-width: 400px;
+    background-color: #1C2834; /* Slightly lighter dark shade for the card */
+  }
+  .card-header {
+    background-color: #5865F2; /* Same blue color as main page buttons */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .card-body {
+    padding: 30px;
+    color: white; /* White text for readability */
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type=text], input[type=password] {
+    background-color: #2C3E50; /* Dark input fields */
+    color: white; /* White text */
+    border: 1px solid #34495E;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  button[type=submit] {
+    background-color: #5865F2; /* Blue button color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button[type=submit]:hover {
+    background-color: #475a8d; /* Darker shade for hover effect */
+  }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<div class="login-container">
+  <div class="card">
+    <div class="card-header">Авторизация</div>
+    <div class="card-body">
+      {% if error_message %}
+        <div class="alert alert-danger" role="alert">{{ error_message }}</div>
+      {% endif %}
+      <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="username">Имя пользователя</label>
+          <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <button type="submit">Войти</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

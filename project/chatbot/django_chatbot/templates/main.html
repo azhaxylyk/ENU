@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<style>
+  .split-screen {
+    display: flex;
+    height: 100vh;
+  }
+  .left-side {
+    flex: 1;
+    background-color: #0A1A2F; /* Dark blue background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px; /* Adjust the padding as needed */
+    text-align: left;
+  }
+  .right-side {
+    flex: 1;
+    background-color: #fff; /* Light background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn-custom {
+    padding: 10px 30px;
+    margin: 10px; /* Spacing between buttons */
+    width: 200px; /* Fixed width for buttons */
+  }
+  .btn-primary {
+    background-color: #5865F2; /* Blue color for primary button */
+    border: none;
+    color: white;
+  }
+  .btn-secondary {
+    background-color: #23272A; /* Darker background for secondary button */
+    border: none;
+    color: white;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="split-screen">
+  <div class="left-side">
+    <div>
+      <h1>Добро пожаловать в <br>Mind's Ascent</h1>
+      <p>Окунитесь в захватывающий опыт нашего детективного приключения с чат-ботом.</p>
+    </div>
+  </div>
+  <div class="right-side">
+    <a href="{% url 'register' %}" class="btn btn-primary btn-custom">Регистрация</a>
+    <a href="{% url 'login' %}" class="btn btn-secondary btn-custom">Авторизация</a>
+  </div>
+</div>
+{% endblock %}
